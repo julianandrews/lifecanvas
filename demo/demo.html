@@ -10,17 +10,38 @@
     <script>
       window.onload = () => attachToCanvases(
           '.life-canvas',
-          {cellColor: "#00BFFF", width: 1920});
+          {cellColor: "#00BFFF", width: 1200});
     </script>
   </head>
   <body>
-    <header>
-      <canvas class="life-canvas"></canvas>
-      <h1>Life Canvas Demo Page</h1>
-    </header>
-    <main>
-      <h2>A header here</h2>
-      <p>Some text</p>
-    </main>
+    <div class="wrapper">
+      <header>
+        <canvas class="life-canvas"></canvas>
+        <h1>Life Canvas Demo Page</h1>
+      </header>
+      <main>
+        <h2 id="conway-life-canvas">Conway Life Canvas</h2>
+        <p>
+          A simple typescript module for animating HTML5 canvases with
+          Conway's &quot;Game of Life&quot;.
+        </p>
+        <h2>Usage</h2>
+        <p>
+          Create any number of html <code>&lt;canvas&gt;</code> element, and
+          then call <code>attachToCanvases</code> with a selector that targets
+          those canvases. See the source code to get a sense of what options
+          are available.
+        </p>
+        <h2>Caveats</h2>
+        <p>
+          If you don't specify the width and height in the options to
+          <code>attachToCanvases</code> the world will be generated based
+          on the initial canvas size. If the canvas gets sized dynamically you
+          probably want to specify a size that will be larger that you ever
+          expect to see to avoid having to repopulate. Alternatively, the
+          <code>LifeCanvas</code> can be resized and repopulated manually.
+        </p>
+      </main>
+    </div>
   </body>
 </html>

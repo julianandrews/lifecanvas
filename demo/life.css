@@ -1,7 +1,42 @@
 html, body, h1, h2 {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #00376B;
+  color: #00376B;
   font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+div.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width:1200px;
+  min-height: 100vh;
+}
+
+header {
+  align-items: center;
+  border-bottom: 3px solid #914D00;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  position: relative;
+}
+
+main {
+  background-color: #FFF;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+h1 {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 10px 15px;
 }
 
 .life-canvas {
@@ -10,22 +45,4 @@ html, body, h1, h2 {
   position: absolute;
   width: 100%;
   z-index: -1;
-}
-
-header {
-  align-items: center;
-  display: flex;
-  height: 200px;
-  justify-content: center;
-}
-
-main {
-  padding: 20px;
-}
-
-h1 {
-  background-color: #FFF;
-  border-radius: 10px;
-  color: #00376B;
-  padding: 10px 15px;
 }
