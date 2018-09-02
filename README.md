@@ -18,4 +18,4 @@ This should generate `dist/lifecanvas.js`.
 
 ## Usage
 
-See `demo/demo.html` for an example.
+See `docs/index.html` for an example.
