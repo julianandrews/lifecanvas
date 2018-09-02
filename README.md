@@ -3,6 +3,8 @@
 A simple typescript module for animating HTML5 canvases with Conway's "Game
 of Life".
 
+Take a look at the [demo](https://julianandrews.github.io/lifecanvas/)!
+
 ## Installation
 
 [Get](https://www.typescriptlang.org/index.html#download-links) the
