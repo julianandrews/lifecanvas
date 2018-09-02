@@ -3,7 +3,7 @@
 A simple typescript module for animating HTML5 canvases with Conway's "Game
 of Life".
 
-##Installation
+## Installation
 
 [Get](https://www.typescriptlang.org/index.html#download-links) the
 typescript compiler.
@@ -16,6 +16,6 @@ tsc
 
 This should generate `dist/lifecanvas.js`.
 
-##Usage
+## Usage
 
 See `demo/demo.html` for an example.
