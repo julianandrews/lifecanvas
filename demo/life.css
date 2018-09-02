@@ -1,0 +1,31 @@
+html, body, h1, h2 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.life-canvas {
+  background-color: #E6F4F1;
+  height: 200px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  background-color: #FFF;
+  border-radius: 10px;
+  color: #00376B;
+  padding: 10px 15px;
+}
